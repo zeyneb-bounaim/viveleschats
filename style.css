@@ -1,3 +1,11 @@
+header {
+    background-color: #F2E7DD;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #F2E7DD;
+}
+
+
 h1 {
 	color: #973131;
 	font-size: 200%;
@@ -11,11 +19,50 @@ p{
 }
 
 body {
+	background-image: url('Images/backgroundcat.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	font-family: Arial, sans-serif;
-	background-color: #F5E7B2;
+	background-color: #F2E7DD;
 	font-size: 120%;
 	color: #973131;
+	border-bottom: 1px solid #F2E7DD;
 }
+
+
+.text-box {
+    width: 1200px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-wrapper img {
+	width: 300px;
+	height: 300px;
+  	border-radius: 6px;
+	object-fit: cover;
+   	margin-right: 100px;
+}
+
+.box-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: right; /* Aligne le texte à droite */
+    display: inline-block; /* Comporte le texte comme un bloc */
+    vertical-align: top; /* Aligne le texte en haut */
+}
+
 
 ul {
 	color: #973131;
@@ -25,12 +72,6 @@ ol {
 	color: #973131;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-  border-radius: 6px;
-  object-fit: cover;
-}
 hr {
 	color: #973131;
 }
@@ -41,4 +82,4 @@ video {
   border-radius: 8px;
 }
 
-<!---"trouver comment changer rla couleur des lignes"--->
+/*trouver comment changer rla couleur des lignes*/
