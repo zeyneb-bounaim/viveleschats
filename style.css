@@ -14,24 +14,8 @@ h2 {
 	color: #973131;
 }
 
-p{
-	color: #973131;
-}
 
-body {
-	background-image: url('Images/backgroundcat.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	font-family: Arial, sans-serif;
-	background-color: #F2E7DD;
-	font-size: 120%;
-	color: #973131;
-	border-bottom: 1px solid #F2E7DD;
-}
-
-
-.text-box {
+.main {
     width: 1200px;
     padding: 40px;
     border: 1px solid #ccc;
@@ -40,27 +24,98 @@ body {
     margin: 20px auto;
 }
 
-.content-wrapper {
+.first {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 25px;
 }
 
-.content-wrapper img {
-	width: 300px;
-	height: 300px;
+.first img {
+	width: 400px;
+	height: 400px;
   	border-radius: 6px;
 	object-fit: cover;
+   	margin-left: 50px;
    	margin-right: 100px;
+   	margin-bottom: 30px;
 }
 
-.box-text p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    text-align: right; /* Aligne le texte à droite */
-    display: inline-block; /* Comporte le texte comme un bloc */
-    vertical-align: top; /* Aligne le texte en haut */
+.first p {
+	font-size: 24px;
+	color: #973131;
+    /*line-height: 1.5;*/
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+}
+.second {
+	display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    padding-top: 25px;
+}
+
+.second .second-right {
+	width: 30%;
+	padding-right:200px;
+	float: right;
+}
+.second-right {
+	margin-top: 20px;
+	float: right;
+	margin-left: 50px;
+
+}
+.second h2 {
+	font-size: 35pt;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.second p {
+	font-size: 24px;
+	margin-left: 50px;
+	color: #973131;
+	margin-bottom: 100px;
+}
+
+.second img {
+	width: 400px;
+	height: 400px;
+  	border-radius: 6px;
+	object-fit: cover;
+    margin-right: 50px;
+   	padding-left: 100px;
+   	padding-bottom: 30px;
+}
+
+.third {
+	display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    padding-top: 25px;
+}
+.third .third-title {
+	width: 30%;
+	padding-bottom:200px;
+	float: top;
+}
+.third-title {
+	align-content: center;
+}
+
+body {
+	background-image: url('Images/backgroundcat.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	/*background-color: #F2E7DD;*/
+	/*font-size: 120%;*/
+	/*color: #973131;*/
+	border-bottom: 1px solid #F2E7DD;
 }
 
 
